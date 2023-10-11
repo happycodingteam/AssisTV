@@ -377,22 +377,22 @@ text-transform: uppercase;
 }
 
 
-.hero-item .star-area{
+.star-area{
     text-align: center;
     margin: 20px 0px 50px;
 }
-.hero-item .star-area .trust-star{}
-.hero-item .star-area .trust-star .t-icon{
+.star-area .trust-star{}
+.star-area .trust-star .t-icon{
     height: 18px;
     width: 18px;
 }
-.hero-item .star-area .trust-star .trust-text{
+ .star-area .trust-star .trust-text{
     font-size: 14px;
 text-align: center;
 color: rgb(12, 14, 40);
 font-weight: 700;
 }
-.hero-item .star-area .count-text{
+.star-area .count-text{
     font-size: 12px;
     text-align: center;
     color: rgb(12, 14, 40);
@@ -401,14 +401,14 @@ font-weight: 700;
     margin-bottom: 15px;
 }
 
-.hero-item .star-area .five-star{
+ .star-area .five-star{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hero-item .star-area .five-star .icon-five-star{
-    height: 40px;
-    width: 40px;
+.star-area .five-star .icon-five-star{
+    height: 30px;
+    width: 30px;
     margin: 0px 3px;
 }
 
@@ -523,4 +523,649 @@ color: rgb(24, 4, 47);
         line-height: normal;
         
         }
+}
+
+
+
+
+/* ------------------------------- Why Choose Start ------------------------------------- */
+
+
+.why-choose-us{
+    margin: 20px 0px 60px;
+}
+.why-choose-heading{
+    padding: 40px 0px;
+}
+.why-choose-heading .why-choose-heading-text{
+ font-family: "Inter", "Inter Placeholder", sans-serif;
+font-size: 48px;
+font-weight: 700;
+letter-spacing: 0px;
+text-align: center;
+color: rgb(24, 4, 47);
+}
+
+
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-box .why-choose-item{
+    text-align: center;
+    background: #F0F1F5;
+    border-radius: 5px;
+    flex-basis: 23%;
+    padding: 30px;
+    height: 300px;
+}
+.flex-box .why-choose-item .choose-icon{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.flex-box .why-choose-item .choose-heading-text{
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgb(24, 4, 47);
+    margin-bottom: 15px;
+}
+.flex-box .why-choose-item .choose-details{
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgb(24, 4, 47);
+    margin-bottom: 15px
+}
+@media only screen and (max-width: 1650px) and (min-width: 1251px) {
+
+    .flex-box .why-choose-item .choose-heading-text {
+        font-family: "Inter", "Inter Placeholder", sans-serif;
+        font-size: 18px;
+      
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 1250px) and (min-width: 992px) {
+    .flex-box .why-choose-item{
+      
+        flex-basis: 24%;
+        padding: 30px 15px;
+        height: 340px;
+    }
+    .flex-box .why-choose-item .choose-heading-text {
+        font-family: "Inter", "Inter Placeholder", sans-serif;
+        font-size: 16px;
+      
+        margin-bottom: 5px;
+    }
+}
+@media all and (max-width:991px) {
+    .flex-box .why-choose-item{
+       
+        flex-basis: 46%;
+       
+        height: 300px;
+        margin-bottom: 40px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .flex-box .why-choose-item{
+       
+        flex-basis: 100%;
+       
+        height: 300px;
+        margin-bottom: 40px;
+    }
+    .why-choose-heading .why-choose-heading-text {
+ 
+        font-size: 30px;
+      
+    }
+    .main-flim-series-section {
+        padding: 40px 0px;
+    }
+}
+
+
+
+/* ------------------------------- Why Choose Start ------------------------------------- */
+.main-pricing-area{
+    background: #F0F1F5;
+    padding: 70px 0px;
+}
+.pricing-heading{}
+.pricing-heading .pricing-heading-text{
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgb(24, 4, 47);
+}
+.pricing-heading .pricing-heading-slogan{
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgb(24, 4, 47);
+
+    width:40%;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+
+
+.flex-box-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pack-item{
+    flex-basis: 31%;
+    box-shadow: .24145061431045178px .24145061431045178px 1.7073136670057811px -1.25px #00000059,2px 2px 14.142135623730951px -2.5px #00000059;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.pack-item .pack-heading{
+
+font-size: 25px;
+font-weight: 800;
+line-height: 36px;
+text-alignment: center;
+color: rgb(12, 14, 40);
+text-align: center;
+text-transform: uppercase;
+}
+.pack-item .delete{
+font-family: "Inter", "Inter Placeholder", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 15.6px;
+text-align: center;
+color: rgba(0, 182, 122, 0.52);
+text-transform: uppercase;
+display: block;
+padding: 25px 0px;
+}
+
+
+.pack-item .price{
+
+font-family: "Inter", "Inter Placeholder", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-align: center;
+color: rgb(12, 14, 40);
+}
+
+
+.pack-item .pack-ul{}
+.pack-item .pack-ul .pack-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.pack-item .pack-ul .pack-list .bx-check{
+    color: #A084F1;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.pack-item .pack-ul .pack-list .pack-span-text{
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color: rgb(12, 14, 40);
+}
+
+.pack-item .pack-buy-button{
+    border: none;
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #BB2222;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px;
+
+}
+
+
+.text-box{
+    text-align: center;
+    display: block;
+}
+
+.pack-item .pack-livraison-text{
+    background: #F0F1F5;
+    padding: 5px 10px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+    width: 230px;
+    margin: 0 auto;
+
+}
+.pack-item .pack-livraison-text .bxs-bolt-circle{
+    color: #00B67A;
+}
+.pack-item .pack-livraison-text .p-text{
+
+font-family: "Inter", "Inter Placeholder", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color: #000;
+}
+
+.text-white{
+    color: #ffffff;
+}
+
+.multi-button-area{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.multi-button-area .multi-button{
+    border: none;
+    background: none;
+    border-radius: 31px;
+  box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #7174982e,0 2.288533303243457px 2.288533303243457px -2.5px #71749829,0 10px 10px -3.75px #71749810;
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 26px;
+}
+.multi-button-area .multi-button .icon-here{
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+}
+.multi-button-area .multi-button .multi-btn-text{
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+color: #000;
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .flex-box-two{
+       
+        flex-direction: column;
+    }
+    .pack-item{
+        flex-basis: 31%;
+       
+    }
+}
+@media all and (max-width:991px) {
+    .flex-box-two{
+      
+        flex-direction: column;
+    }
+    .pack-item{
+        flex-basis: 31%;
+   
+        
+    }
+    .pricing-heading .pricing-heading-text {
+       
+        font-size: 30px;
+       
+    }
+    .pricing-heading .pricing-heading-slogan {
+ 
+        font-size: 18px;
+       
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .flex-box-two{
+        flex-wrap: wrap;
+         flex-direction: unset;
+     }
+    .pack-item{
+        flex-basis: 100%;
+       
+        padding: 30px 15px;
+    }
+}
+
+
+
+
+/* -------------------------------- Adv Section Start ---------------------------------- */
+
+
+.main-adv-secction{
+    padding: 70px 0px;
+}
+.adv-heading{}
+.adv-heading .adv-heading-text{
+
+        font-family: "Inter", "Inter Placeholder", sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0px;
+        text-align: center;
+        color: rgb(24, 4, 47);
+        line-height: normal;
+ 
+}
+.adv-heading .adv-image{
+    height: auto;
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+@media all and (max-width:991px) {
+    .adv-heading .adv-heading-text{
+
+      
+        font-size: 35px;
+       
+ 
+}
+}
+@media all and (max-width:767px) {
+    .adv-heading .adv-heading-text{
+
+      
+        font-size: 30px;
+       
+ 
+}
+}
+@media all and (max-width:576px) {
+    .adv-heading .adv-heading-text{
+
+      
+        font-size: 25px;
+       
+ 
+}
+}
+
+
+/* ----------------------------- Feedback Section Start -------------------------------------- */
+
+
+.main-feedback-section{
+    background: #F0F1F5;
+    padding: 70px 0px;
+}
+
+.feedback-heading{}
+.feedback-heading .feedback-heading-text{
+
+        font-family: "Inter", "Inter Placeholder", sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0px;
+        text-align: center;
+        color: rgb(24, 4, 47);
+        line-height: normal;
+ 
+}
+
+
+.feedback-item{
+    border-radius: 5px;
+    box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #7174982e,0 2.288533303243457px 2.288533303243457px -2.5px #71749829,0 10px 10px -3.75px #71749810;
+   padding: 20px;
+   border: 1px solid #e0e0e6;
+   background: #ffffff;
+}
+.feedback-item .feedback-image{
+    height: 300px;
+    width: 100%;
+
+}
+
+
+.feedback-item .feedback-text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(58, 21, 101);
+    text-align: center;
+}
+
+.user-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-details .user-image-area{
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+.user-details .user-text-area{}
+.user-details .user-text-area .user-name{
+    
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: normal;
+}
+.user-details .user-text-area .f-star .y-star{
+
+}
+
+
+
+.feedback-nos-offers-button{
+    text-align: center;
+    margin: 25px 0px;
+}
+.feedback-nos-offers-button .nos-offer-button-two{
+    font-family: "Google Sans Bold", sans-serif;
+font-size: 18px;
+letter-spacing: 0.3px;
+text-alignment: center;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+
+  background-color: #1B0632;
+  border-radius: 12px;
+  box-shadow: 0 1px 40px 4px #0c0e2859;
+
+
+  padding: 10px 25px;
+
+}
+
+
+/* ----------------------------- Contact Us Section Start -------------------------------------- */
+
+.main-contact-us-section{
+    padding: 70px 0px;
+}
+.contact-us-heading{
+    text-align: center;
+}
+.contact-us-heading .contact-logo{
+
+    height: 60px;
+    width: 180px;
+}
+.contact-us-heading .contact-slogan{
+font-family: "TT Commons Regular", sans-serif;
+font-size: 29px;
+line-height: normal;
+text-alignment: center;
+color:  rgb(12, 14, 40);
+width: 70%;
+margin: 0 auto;
+padding: 30px 0px;
+}
+
+
+
+
+
+.flex-box-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 25px auto;
+}
+.flex-box-three .contact-item{
+    background-color: rgb(240, 241, 245);
+  border-radius: 22px;
+  text-align: center;
+  padding: 30px;
+  flex-basis: 48%;
+}
+.flex-box-three .contact-item .contact-icon{
+    font-size: 25px;
+}
+.flex-box-three .contact-item .contact-name{
+
+font-size: 18px;
+font-weight: 800;
+line-height: normal;
+text-alignment: center;
+color: rgb(12, 14, 40);
+padding: 25px 0px;
+}
+.flex-box-three .contact-item .contact-link{
+
+font-family: "Inter", "Inter Placeholder", sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: normal;
+text-alignment: center;
+color:rgb(12, 14, 40);
+}
+
+
+@media all and (max-width:991px) {
+    .flex-box-three{
+        
+        width: 100%;
+       flex-direction: column;
+    }
+    .flex-box-three .contact-item{
+       width: 100%;
+      flex-basis: 100%;
+      margin-bottom: 40px;
+    }
+    .contact-us-heading .contact-slogan {
+       
+        font-size: 20px;
+       
+        width: 100%;
+       
+        padding: 15px 0px;
+    }
+}
+
+
+
+
+
+/* --------------------------------- Main Footer Section ------------------------------ */
+
+.main-footer-area{
+    margin-bottom: 40px;
+}
+.footer-item{
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.27) 0px 0px 30px 3px;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-item .footer-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-item .footer-ul .footer-list{
+    padding: 0px 15px;
+}
+.footer-item .footer-ul .footer-list .footer-link{
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: #041520;
+}
+
+.footer-item .footer-ul .footer-list .footer-link:hover{
+    color: #8b6565;
+}
+.custom-border{
+    border-left: 1px solid #041520;;
+    border-right: 1px solid #041520;;
+}
+
+@media all and (max-width:991px) {
+    .footer-item{
+      
+      width: 100%;
+      margin: 0 auto;
+    }
+}
+@media all and (max-width:576px) {
+    .footer-item .footer-ul .footer-list {
+        padding: 0px 6px;
+    }
+}
+@media all and (max-width:480px) {
+    .custom-border{
+      border: none;
+    }
+    .footer-item .footer-ul{
+        flex-direction: column;
+    }
+    .footer-item .footer-ul .footer-list {
+        padding: 10px 0px;
+    }
+    .footer-item{
+      
+        width: 90%;
+        margin: 0 auto;
+      }
 }
